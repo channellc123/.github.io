@@ -14,11 +14,10 @@ nav
 nav li
 {
     display:inline;  
-  margin: 10px;
 }
 nav ul
 {
-    text-align:center;
+  text-align:center;
   padding-left:0px;
 }
 h1
