@@ -2,29 +2,52 @@
 {
   --uncblue: RGB(1,45,91);
   --uncgold; RGB(254,189,54);
+  --uncgray: RGB(200,200,200);
+
+  background-color: var(--uncgray);
+   color:var(--uncblue);
 }
-#nametitle
+nav
 {
-  color: var(--uncblue);
+   color:var(--uncgold);
 }
-.interests
+nav li
 {
-color: var(--uncblue);
+    display:inline;  
+  margin: 10px;
 }
-section h1
+nav ul
 {
-  font-size:42px;
+    text-align:center;
+  padding-left:0px;
 }
-section :hover
+h1
 {
-  background-color:var(--uncgold);
+  font-size: 48px;
+  text-align: center;
+ 
 }
-a
+img
 {
-  display:block;
-  margin-top: 15px;
+display: block;
+margin-left: auto:
+margin-right: auto;
 }
-p
+ul li
 {
-  display: inline;
+  font-weight: bold;
+}
+.footertext
+{
+  display: block;
+  margin-top: 200px:
+  text-align: center;
+}
+h2
+{
+text-align: center;
+}
+h2+p
+{
+  text-align: center;
 }
